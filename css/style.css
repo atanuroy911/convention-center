@@ -47,6 +47,10 @@ footer{
     font-family: 'Poppins';
 }
 
+.rounded-20p{
+    border-radius: 20px;
+}
+
 .carousel-img:after {
     content:"";
     display:block;
@@ -110,5 +114,20 @@ footer{
     color: #747474;
     letter-spacing: 0.2px;
     font-size: 14px;
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 992px) {
+    input[type=text], input[type=email], button[type=submit], .form-label{
+        width: 75% !important;
+    }
 }
     
