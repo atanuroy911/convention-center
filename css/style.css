@@ -27,6 +27,11 @@ nav{
     font-weight: 500;
 }
 
+footer{
+    background-color: black;
+    height: 280px;
+}
+
 .btn-book{
     background-color: white;
     width: 168px;
@@ -51,6 +56,10 @@ nav{
     left:0;
     right:0;
     background:rgba(0,0,0,0.45);
+}
+
+.section-title{
+    color: var(--primary-text-color);
 }
 
 .moments-title{
