@@ -2,13 +2,14 @@
 
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;600;700&display=swap');
 
 /* Custom Variables */
 
 :root{
     --accent-color: #3F87F5;
     --hot-color: #FF4E4E;
+    --navbar-text-color: #3E3E3E;
     --primary-text-color: #0A0826;
     --secondary-text-color: #6C6C6C;
     --package-title-color: #231D4F;
@@ -20,3 +21,85 @@
 body{
     font-family: 'Poppins';
 }
+
+nav{
+    color: var(--navbar-text-color);
+    font-weight: 500;
+}
+
+.btn-book{
+    background-color: white;
+    width: 168px;
+    height: 44px;
+    color: var(--accent-color);
+}
+
+.font-roboto{
+    font-family: 'Roboto';
+}
+
+.font-poppins{
+    font-family: 'Poppins';
+}
+
+.carousel-img:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.45);
+}
+
+.moments-title{
+    color: var(--primary-text-color);
+}
+.moments-body{
+    color: var(--secondary-text-color);
+}
+
+.btn-explore{
+    background-color: var(--accent-color);
+}
+
+
+.package-title{
+    color: var(--package-title-color);
+}
+
+.package-text *{
+    color: var(--package-desc-color);
+}
+
+.package-selected .package-text .list-group li{
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.btn-choose{
+    background-color: #f9ebf4;
+    color: var(--accent-color);
+}
+
+.package-selected .btn-choose{
+    background-color: white;
+}
+
+.package-selected{
+    background-color: var(--accent-color);
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+}
+
+.secondary-text-color{
+    color: var(--secondary-text-color);
+}
+
+.designation-text{
+    color: #747474;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+}
+    

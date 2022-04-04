@@ -11,8 +11,293 @@
 </head>
 <body>
     <header>
-
+        <div class="container">
+            <!-- Navigation Bar Start -->
+            <nav class="navbar navbar-expand-lg navbar-light py-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand fw-bold text-wrap" href="#">Roy Convention Center</a> 
+                  <!-- TODO: Should Break after first two words on small screen but, does not -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Subscribe</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <!-- Navigation Bar End -->
+        </div>
+        
+        <div>
+            <!-- Carousel Start -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-2">
+                        <h2 class="mb-2">The perfect venue for your <br> next event</h2>
+                        <p class="fw-light mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Reprehenderit, facilis dolore. Vel, eius quod? Dolorem.</p>
+                        <button class="btn btn-book border-0 fw-bold mb-3">Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-img">
+                        <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block mb-2">
+                        <h2 class="mb-2">The perfect venue for your <br> next event</h2>
+                        <p class="fw-light mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Reprehenderit, facilis dolore. Vel, eius quod? Dolorem.</p>
+                        <button class="btn btn-book border-0 fw-bold mb-3">Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="carousel-img">
+                        <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    <div class="carousel-caption d-none d-md-block mb-2">
+                        <h2 class="mb-2">The perfect venue for your <br> next event</h2>
+                        <p class="fw-light mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Reprehenderit, facilis dolore. Vel, eius quod? Dolorem.</p>
+                        <button class="btn btn-book border-0 fw-bold mb-3">Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-img">
+                      <img src="images/banner4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block mb-2">
+                        <h2 class="mb-2">The perfect venue for your <br> next event</h2>
+                        <p class="fw-light mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Reprehenderit, facilis dolore. Vel, eius quod? Dolorem.</p>
+                        <button class="btn btn-book border-0 fw-bold mb-3">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- Carousel End -->
+        </div>
     </header>
+    <!-- Main Section -->
+    <main>
+        <!-- Moment Section Start -->
+        <section class="container py-3 my-3 py-lg-5 my-lg-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-last order-lg-first d-flex justify-content-center align-items-center mt-1 mt-md-3 mt-lg-0">
+                    <img src="images/wedding.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 order-first order-lg-last">
+                    <h2 class="moments-title fw-bold">Every Moment is Precious</h2>
+                    <p class="moments-body fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nobis dicta eligendi maiores voluptatibus rerum, nulla at quisquam tempore facere?</p>
+                    <button class="btn btn-explore text-white rounded-0 fw-bold px-4 py-2 d-none d-lg-block">Explore our album <img src="icons/arrow-forward 1.svg" alt=""></button>
+                </div>
+                <div class="col order-last d-flex justify-content-center">
+                    <button class="btn btn-explore text-white rounded-0 fw-bold px-4 mt-3 d-block d-lg-none">Explore our album <img src="icons/arrow-forward 1.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+        <!-- Moment Section End -->
+        
+        <!-- Our Package Section Start -->
+        <section class="container">
+            <h2 class="section-title text-center fw-bold py-4 my-4">Our Package</h2>
+            <div class="row mx-4 py-2 py-lg-5 my-2 my-lg-5">
+                <div class="col-lg-3 pb-4">
+                    <h1 class="font-roboto package-title fw-bold">$300</h1>
+                    <br>
+                    <h2 class="font-roboto package-title fw-bold">Business Fair</h2>
+                    <div class="package-text">
+                        <p>For most businesses event like book fair, craft fair.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              limited space access
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Security facility
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              event support
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Decoration design
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Per day bill
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-choose rounded-pill fw-bolder w-100 my-3 py-3">Choose plan</button>
+                </div>
+                <div class="col-lg-3 pb-4">
+                    <h1 class="font-roboto package-title fw-bold">$500</h1>
+                    <br>
+                    <h2 class="font-roboto package-title fw-bold">Wedding basic</h2>
+                    <div class="package-text">
+                        <p>For most businesses event like book fair, craft fair.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Full space access
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Food Arrangement
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              event support
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Decoration design
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Billed as shift
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-choose rounded-pill fw-bolder w-100 my-3 py-3">Choose plan</button>
+                </div>
+                <div class="col-lg-3 package-selected py-4 rounded-20p">
+                    <h1 class="font-roboto package-title fw-bold text-white">$800</h1>
+                    <br>
+                    <h2 class="font-roboto package-title fw-bold text-white">Wedding plus</h2>
+                    <div class="package-text">
+                        <p class="text-white">For most businesses event like book fair, craft fair.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick-blue.svg" alt=""></span>
+                              limited space access
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick-blue.svg" alt=""></span>
+                              Security facility
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick-blue.svg" alt=""></span>
+                              event support
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick-blue.svg" alt=""></span>
+                              Decoration design
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick-blue.svg" alt=""></span>
+                              Pay as plan
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-choose rounded-pill fw-bolder w-100 my-3 py-3">Choose plan</button>
+                </div>
+                <div class="col-lg-3 pb-4 mt-4 mt-lg-0">
+                    <h1 class="font-roboto package-title fw-bold">$1200</h1>
+                    <br>
+                    <h2 class="font-roboto package-title fw-bold">Corporate Event</h2>
+                    <div class="package-text">
+                        <p>For most businesses event like book fair, craft fair.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              limited space access
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Security facility
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              event support
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Decoration design
+                            </li>
+                            <li class="list-group-item d-flex justify-content-start align-items-center border-0 py-1 px-0">
+                              <span class="me-2"><img src="icons/tick.svg" alt=""></span>
+                              Per day bill
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-choose rounded-pill fw-bolder w-100 my-3 py-3">Choose plan</button>
+                </div>
+            </div>
+        </section>
+        <!-- Our Package Sectin End -->
+
+        <!-- Happy Clients Section Start -->
+        <section class="container">
+            <h1 class="py-1 py-lg-5 text-center fw-bold">Happy Clients say</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 my-1 my-lg-4">
+                <div class="col">
+                  <div class="card h-100 p-3 border-0 shadow">
+                    <div class="card-body">
+                      <p class="text-center font-lighter secondary-text-color">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="/images/person 2.png" width="100px" height="100px" class="img-fluid m-2" alt="...">
+                        <h5 class="card-title">Regina Miles</h5>
+                        <p class="designation-text fw-bolder">Banker</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-3 border-0 shadow">
+                    <div class="card-body">
+                      <p class="text-center font-lighter secondary-text-color">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="/images/person 3.png" width="100px" height="100px" class="img-fluid m-2" alt="...">
+                        <h5 class="card-title">Jone Drake</h5>
+                        <p class="designation-text fw-bolder">Banker</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-3 border-0 shadow">
+                    <div class="card-body">
+                      <p class="text-center font-lighter secondary-text-color">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="/images/person 1.png" width="100px" height="100px" class="img-fluid m-2" alt="...">
+                        <h5 class="card-title">Cret Yater</h5>
+                        <p class="designation-text fw-bolder">Banker</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- Happy Clients Section End -->
+    </main>
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
